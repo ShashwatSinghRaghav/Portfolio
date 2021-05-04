@@ -213,6 +213,7 @@ img{
   color: var(--first-color);
 }
 .home__img{
+  grid-area: right-column;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -328,6 +329,19 @@ img{
   border-radius: 1rem;
 }
 
+.project_button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: .75rem 2.5rem;
+  font-weight: var(--font-semi);
+  border-radius: .5rem;
+}
+.project_button:hover{
+  box-shadow: 0 10px 36px rgba(0,0,0,.15);
+}
 /* ===== WORK =====*/
 .work__container{
   row-gap: 2rem;
