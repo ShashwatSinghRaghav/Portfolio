@@ -100,6 +100,30 @@ img{
   padding-bottom: 2rem;
 }
 
+
+
+.section-title2{
+  position: relative;
+  font-size: var(--h1-font-size);
+  color: var(--first-color);
+  margin-top: var(--mb-2);
+  margin-bottom: var(--mb-4);
+  text-align: center;
+}
+.section-title2::after{
+  position: absolute;
+  content: "";
+  width: 64px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 2rem;
+  background-color: var(--first-color);
+}
+.section{
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
 /*===== LAYOUT =====*/
 .bd-grid{
   max-width: 1024px;
@@ -229,6 +253,7 @@ img{
   font-weight: var(--font-semi);
   border-radius: .5rem;
 }
+
 .button:hover{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }
