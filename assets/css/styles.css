@@ -118,9 +118,9 @@ body{
   display: block;
   width: 1em;
   height: 1em;
-  border: solid 1px #222222;
-  background-color: #ffffff;
-  border-radius: 50%;
+  border: solid 3px #01aef0;
+  background-color: #01aef0;
+  border-radius: 100%;
 }
 
 .CV-timeline-heading {
