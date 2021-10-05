@@ -1,5 +1,5 @@
 /*===== GOOGLE FONTS =====*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /*===== VARIABLES CSS =====*/
 :root{
   --header-height: 3rem;
@@ -9,12 +9,12 @@
 /*===== Colores =====*/
 :root{
   --first-color: #4070F4;
-  --second-color: #0E2431;
+  --second-color: #15244c;
 }
 
 /*===== Fuente y tipografia =====*/
 :root{
-  --body-font: 'Poppins', sans-serif;
+  --body-font: 'Roboto', sans-serif;
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: 0.938rem;
@@ -72,7 +72,6 @@ body{
     padding: 0 1em;
   }
 }
-/* if IE<=7 */
 
 .CV-page\ {
   width: 1100px;
@@ -380,7 +379,7 @@ img{
 /* ===== SKILLS =====*/
 .skills__container{
   row-gap: 2rem;
-  text-align: center;
+  text-align: left;
 }
 .skills__subtitle{
   margin-bottom: var(--mb-2);
@@ -388,6 +387,7 @@ img{
 .skills__text{
   margin-bottom: var(--mb-4);
   text-align: center;
+  padding-top: 10px;
 }
 .skills__data{
   display: flex;
@@ -430,17 +430,17 @@ img{
 .skills__mysql{
   width: 60%;
 }
-.skills__php{
-  width: 45%;
+.skills__aws{
+  width: 55%;
 }
 .skills__illustration{
   width: 75%;
 }
 .skills__sketch{
-  width: 85%;
+  width: 65%;
 }
 .skills__htmlcss{
-  width: 50%;
+  width: 75%;
 }
 .skills__adobexd{
   width: 90%;
@@ -453,6 +453,12 @@ img{
 }
 .skills__wireframe{
   width: 75%;
+}
+.skills__ab{
+  width: 80%;
+}
+.skills__ia{
+  width: 65%;
 }
 .skills__img{
   border-radius: 1rem;
@@ -476,8 +482,9 @@ img{
   row-gap: 2rem;
 }
 .work__img{
-  box-shadow: 0 4px 25px rgba(14,36,49,.15);
-  border-radius: .5rem;
+  box-shadow: 0 0px 15px rgba(0, 0, 0, 0.15);
+  /* border-radius: 1rem; */
+  padding: 0.5rem;
   overflow: hidden;
 }
 .work__img img{
@@ -518,6 +525,10 @@ img{
 }
 .footer__title{
   font-size: 2rem;
+  margin-bottom: var(--mb-1);
+}
+.footer__sub{
+  /* font-size: 2rem; */
   margin-bottom: var(--mb-4);
 }
 .footer__social{
@@ -554,7 +565,7 @@ img{
     padding-top: 0;
   }
   .nav__item{
-    margin-left: var(--mb-6);
+    margin-left: var(--mb-4);
     margin-bottom: 0;
   }
   .nav__toggle{
