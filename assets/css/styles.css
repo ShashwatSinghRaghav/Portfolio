@@ -326,6 +326,29 @@ img{
 .home__title-color{
   color: var(--first-color);
 }
+
+.home__title-color:hover{
+  background-color: #e3e2ff;
+  -webkit-text-fill-color: white; 
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--first-color);
+}
+.home__Sub-title-color{
+  /* color: var(--first-color); */
+  -webkit-text-fill-color: white; 
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--first-color);
+}
+
+.home__Sub-title-color:hover{
+  background-color: #e3e2ff;
+  -webkit-text-fill-color: var(--first-color);
+  /* -webkit-text-stroke-width: 1px; */
+  /* -webkit-text-stroke-color: var(--first-color); */
+
+
+}
+
 .home__social{
   display: flex;
   flex-direction: column;
