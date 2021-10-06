@@ -328,23 +328,21 @@ img{
 }
 
 .home__title-color:hover{
-  background-color: #e3e2ff;
+  background-color: #DFE7FD;
   -webkit-text-fill-color: white; 
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: var(--first-color);
 }
 .home__Sub-title-color{
-  /* color: var(--first-color); */
   -webkit-text-fill-color: white; 
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: var(--first-color);
 }
 
 .home__Sub-title-color:hover{
-  background-color: #e3e2ff;
+  background-color: #DFE7FD;
   -webkit-text-fill-color: var(--first-color);
-  /* -webkit-text-stroke-width: 1px; */
-  /* -webkit-text-stroke-color: var(--first-color); */
+  
 
 
 }
@@ -388,9 +386,36 @@ img{
   row-gap: 2rem;
   text-align: center;
 }
+.about_subtitle_container{
+  row-gap: 2rem;
+  background-color: #DFE7FD;
+  margin-bottom: var(--mb-2);
+}
+.about_subpart2{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 .about__subtitle{
   margin-bottom: var(--mb-2);
 }
+
+.about__subtitle1{
+  margin-bottom: var(--mb-3);
+  font-size: 39px;
+}
+
+.about__text{
+  margin-bottom: var(--mb-2);
+  font-size: 1rem;
+}
+
+
+.about__text1{
+  margin-bottom: var(--mb-3);
+  font-size: 1rem;
+  text-align: left;
+}
+
 .about__img{
   justify-self: center;
 }
@@ -555,7 +580,7 @@ img{
   margin-bottom: var(--mb-4);
 }
 .footer__social{
-  margin-bottom: var(--mb-4);
+  margin-bottom: var(--mb-1);
 }
 .footer__icon{
   font-size: 1.5rem;
@@ -646,5 +671,65 @@ img{
   }
   .home__img{
     right: 10%;
+  }
+}
+
+/*  */
+.wrapper{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--mb-4);
+}
+.wrapper .box{
+  background: #fff;
+  width: calc(33% - 10px);
+  display: block;
+  padding: 2rem;
+  border-radius: 3px;
+  box-shadow: 0 0px 15px rgba(0, 0, 0, 0.15);
+}
+
+.wrapper .box .content{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+/* .box .info{
+  background-color: aqua;
+  
+} */
+.box .info .name{
+  font-weight: 600;
+  font-size: 17px;
+  text-align: left;
+}
+.box .info .job{
+  font-size: 16px;
+  font-weight: 500;
+  color: #4070F4;
+  text-align: left;
+}
+.box .info .job1{
+  font-size: 14px;
+  font-weight: 500;
+  color: #4070F4;
+  text-align: left;
+}
+
+@media (max-width: 1045px) {
+  .wrapper .box{
+    width: calc(50% - 10px);
+    margin: 10px 0;
+  }
+}
+@media (max-width: 702px) {
+  .wrapper .box{
+    width: 100%;
   }
 }
