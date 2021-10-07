@@ -538,6 +538,10 @@ img{
 .work__container{
   row-gap: 2rem;
 }
+
+.services__container{
+  row-gap: 2rem;
+}
 .work__img{
   box-shadow: 0 0px 15px rgba(0, 0, 0, 0.15);
   /* border-radius: 1rem; */
@@ -662,6 +666,10 @@ img{
     width: 300px;
   }
   .work__container{
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+  }
+  .services__container{
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
   }
