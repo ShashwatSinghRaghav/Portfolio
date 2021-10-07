@@ -753,6 +753,11 @@ img{
   margin-bottom: var(--mb-2);
 }
 
+.services__icon2{
+  display: block;
+  font-size: var(--mb-4);
+  color: var(--first-color);
+}
 .services_title{
   font-size: var(--mb-3);
   margin-bottom: var(--mb-2);
@@ -795,8 +800,8 @@ img{
   justify-content: center;
   padding: 0 1rem;
   z-index: 1000;
-  /* opacity: 0;
-  visibility: hidden; */
+  opacity: 0;
+  visibility: hidden;
   transition: .3s;
 }
 
@@ -832,7 +837,7 @@ img{
 
 .services__modal-icon{
   color: var(--first-color);
-  margin-right: var(--mb-3);
+  margin-right: var(--mb-1);
 
 }
 
