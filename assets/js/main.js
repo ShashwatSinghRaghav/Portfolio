@@ -33,6 +33,28 @@ const sr = ScrollReveal({
     reset: true
 });
 
+/*===========Service==============*/
+
+const modalViews = document.querySelectorAll('.services__modal'),modalBtns = document.querySelectorAll('.services__button'),modalClose = document.querySelectorAll('.services__modal-close')
+
+let modal = function(modalClick){
+    modalViews[modalClick].classList.add('active-modal')
+}
+
+modalBtns.forEach((modalBtns, i) => {
+    modalBtns.addEventListener('click', () => {
+        modal(i)
+    })
+})
+
+modalClose.forEach((modalClose, i) => {
+    modalClose.addEventListener('click', () => {
+        modalViews.forEach((modalViews) => {
+            modalViews.classList.remove('active-modal')
+        })
+    })
+})
+
 /*SCROLL HOME*/
 sr.reveal('.home__title',{}); 
 sr.reveal('.button',{delay: 200}); 
@@ -56,6 +78,9 @@ sr.reveal('.skills__subtitle',{});
 sr.reveal('.skills__text',{}); 
 sr.reveal('.skills__data',{interval: 200}); 
 sr.reveal('.skills__img',{delay: 600});
+
+/*services*/
+sr.reveal('.services_container',{interval: 200}); 
 
 /*SCROLL WORK*/
 sr.reveal('.work__img',{interval: 200}); 
