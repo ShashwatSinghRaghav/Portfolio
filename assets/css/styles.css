@@ -46,6 +46,8 @@
 }
 
 /*===== BASE =====*/
+
+
 *,::before,::after{
   box-sizing: border-box;
 }
@@ -442,9 +444,10 @@ img{
   margin-bottom: var(--mb-2);
 }
 .skills__text{
-  margin-bottom: var(--mb-4);
+  /* margin-bottom: var(--mb-4); */
   text-align: center;
-  padding-top: 10px;
+  padding-top: var(--mb-2);
+  font-weight: 500;
 }
 .skills__data{
   display: flex;
@@ -542,19 +545,23 @@ img{
 .services__container{
   row-gap: 2rem;
 }
-.work__img{
-  box-shadow: 0 0px 15px rgba(0, 0, 0, 0.15);
-  /* border-radius: 1rem; */
-  padding: 0.5rem;
-  overflow: hidden;
+.projectbox{
+  padding: 1rem;
+  /* overflow: hidden; */
+  border-radius: 16px;
 }
-.work__img img{
-  transition: 1s;
+.projectbox:hover{
+  background-color: white;
+  box-shadow: 0 0px 15px rgba(0, 0, 0, 0.15);
+  transition: .75s;
   cursor: pointer;
 }
-.work__img img:hover{
-  transform: scale(1.1);
+.work__img{
+  overflow: hidden;
+  border-radius: 10px;
+  /* padding: 10px; */
 }
+
 
 /* ===== CONTACT =====*/
 .contact__input{
