@@ -561,6 +561,10 @@ img{
   border-radius: 10px;
   /* padding: 10px; */
 }
+.work__img img{
+
+  height: auto; 
+}
 
 
 /* ===== CONTACT =====*/
