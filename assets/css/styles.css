@@ -17,6 +17,7 @@
   --body-font: 'Roboto', sans-serif;
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
+  --h1-font-size: 1rem;
   --normal-font-size: 0.938rem;
 }
 @media screen and (min-width: 768px){
@@ -209,7 +210,7 @@ img{
 
 .section-title2{
   position: relative;
-  font-size: var(--h1-font-size);
+  font-size: var(--font-semi);
   color: var(--first-color);
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
