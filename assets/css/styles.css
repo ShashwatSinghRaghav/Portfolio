@@ -751,6 +751,11 @@ img{
   text-align: left;
 }
 
+/* case study */
+
+.casestudy__container{
+  row-gap: 2rem;
+}
 
 
 /* ----Services----- */
