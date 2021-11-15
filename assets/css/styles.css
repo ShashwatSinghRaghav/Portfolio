@@ -549,7 +549,7 @@ img{
 .projectbox{
   padding: 1rem;
   /* overflow: hidden; */
-  border-radius: 16px;
+  border-radius: .25rem;
 }
 .projectbox:hover{
   background-color: white;
@@ -559,11 +559,10 @@ img{
 }
 .work__img{
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: .25rem;
   /* padding: 10px; */
 }
 .work__img img{
-
   height: auto; 
 }
 
