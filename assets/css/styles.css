@@ -781,7 +781,7 @@ img{
   display: block;
   font-size: var(--mb-5);
   color: var(--first-color);
-  margin-bottom: var(--mb-2);
+  margin-bottom: var(--mb-1);
 }
 
 .services_title{
@@ -836,6 +836,7 @@ img{
   background-color: white;
   padding: 1.5rem;
   border-radius: .5rem;
+  width: 300px;
 }
 
 .services__modal-services{
